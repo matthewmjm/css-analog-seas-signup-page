@@ -1,13 +1,92 @@
-body {
-    background-color: cornflowerblue;
+* {
+    box-sizing: border-box
 }
 
-header {
-    width: 100%;
+body {
+    background-color: cornflowerblue;
+    padding-left: 30px;
+    font-family: 'Roboto', helvetica, sans-serif;
 }
 
 .logo {
     position: block;
     margin: auto;
     height: 35px;
+}
+
+header,
+main,
+footer {
+    width: 400px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+main {
+    background-color: white;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.log-in fieldset {
+    padding-left: 0;
+    border: none;
+}
+
+.log-in label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.log-in input,
+.log-in button {
+    width: 320px;
+    border: 2px;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.log-in input {
+    display: block;
+    width: 320px;
+    margin-bottom: 15px;
+    border: 2px solid lightgray;
+}
+
+.forgot {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.forgot a:link,
+.forgot a:visited {
+    color: gray;
+}
+
+button {
+    background-color: lightgreen;
+    color: white;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer p,
+footer a {
+    color: white;
+    font-weight: bold:
 }
