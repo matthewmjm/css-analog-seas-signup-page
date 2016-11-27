@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="The account creation page for AnalogSea, a cloud computing startup.">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>Sign-Up Page</title>
     <link rel="stylesheet" href="styles/main.css">
 </head>
@@ -13,10 +14,25 @@
         <img class="logo" src="images/logo.png">
     </header>
     <main>
-        <p>Sign up</p>
+
+        <section>
+            <form class="log-in action=/signup/" method='post'>
+
+                <fieldset name="log-in">
+                    <h1>Sign up</h1>
+                    <label for="email">Email</label>
+                    <input type="email" name='email' id='email' placeholder="foo@bar.com" />
+
+                    <label for="password">Password</label>
+                    <input type="password" name='password' id='password' placeholder="1234Passw0rd" />
+                    <button type='submit'>Sign-up</button>
+                    <a href="/forgot-password/new">Forgot password?</a></p>
+                </fieldset>
+            </form>
+        </section>
     </main>
     <footer>
-        <p>Already have an account?<span>Log in</span></p>
+        <p>Already have an account? <a href="/login">Log in</a></p>
     </footer>
 </body>
 

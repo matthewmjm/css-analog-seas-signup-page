@@ -2,7 +2,12 @@ body {
     background-color: cornflowerblue;
 }
 
+header {
+    width: 100%;
+}
+
 .logo {
+    position: block;
     margin: auto;
     height: 35px;
 }
